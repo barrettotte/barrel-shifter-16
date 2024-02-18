@@ -18,7 +18,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="barrel_shifter_8"/>
+  <main name="barrel_shifter_16"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -376,6 +376,12 @@
     <a name="circuit" val="barrel_shifter_16"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <boardmap boardname="BASYS2">
+      <mc/>
+      <mc/>
+      <mc/>
+      <mc/>
+    </boardmap>
     <comp lib="0" loc="(1100,1380)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -545,7 +551,7 @@
     <comp lib="2" loc="(990,800)" name="Multiplexer"/>
     <comp lib="2" loc="(990,870)" name="Multiplexer"/>
     <comp lib="2" loc="(990,940)" name="Multiplexer"/>
-    <comp lib="8" loc="(1288,247)" name="Text">
+    <comp lib="8" loc="(1285,245)" name="Text">
       <a name="text" val="16-bit Barrel Shifter"/>
     </comp>
     <wire from="(1010,1030)" to="(1010,1100)"/>

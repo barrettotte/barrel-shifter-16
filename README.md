@@ -8,6 +8,9 @@ Synthesized in Vivado and tested on
 [Basys 3 Artix-7](https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/) 
 (XC7A35TCPG236-1).
 
+The top module sets up a 16-bit barrel shifter with an arbitrary start value. The start value can be shifted by one using the
+left and right buttons.
+
 I made this to learn the basics of running VHDL on an FPGA.
 I also plan on using a barrel shifter in my homebrew CPU project so I needed to figure out how this circuit works.
 

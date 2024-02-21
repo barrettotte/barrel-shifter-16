@@ -13,7 +13,7 @@ entity mux2x1 is
     );
 end entity mux2x1;
 
-architecture behavioral of mux2x1 is
+architecture rtl of mux2x1 is
 begin
     o_d <= i_a when i_sel = '0' else i_b;
-end architecture behavioral;
+end architecture rtl;

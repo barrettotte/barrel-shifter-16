@@ -22,6 +22,7 @@ begin
             o_data  => o_data_tb
         );
 
+    -- stimulus
     process begin
         wait for 5ns;
 

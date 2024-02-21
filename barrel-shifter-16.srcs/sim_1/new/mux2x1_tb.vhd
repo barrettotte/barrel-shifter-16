@@ -21,6 +21,7 @@ begin
             o_d   => o_d_tb
         );
     
+    -- stimulus
     process begin
         -- output a
         wait for 10ns;

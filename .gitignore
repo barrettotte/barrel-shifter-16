@@ -36,7 +36,6 @@
 *.sdk
 *.hw
 *.ip_user_files
-*.sim
 
 ### IP synth
 *_synth_*
@@ -104,3 +103,7 @@
 */*/*/bd/*/ip/*/*.tcl
 hw_handoff
 ipshared
+
+# custom
+*.sim
+*.runs

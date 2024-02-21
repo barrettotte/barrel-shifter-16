@@ -15,7 +15,7 @@ entity barrelshifter is
     );
 end entity barrelshifter;
 
-architecture behavioral of barrelshifter is
+architecture rtl of barrelshifter is
     signal shift_target : std_logic_vector(c_bits-1 downto 0);
     signal shifted : std_logic_vector(c_bits-1 downto 0);
 
@@ -35,4 +35,4 @@ begin
     shift_target <= i_data when i_left = '0' else reverse_any_vector(i_data);
     shifted <= std_logic_vector(shift_right(unsigned(shift_target), to_integer(unsigned(i_shift))));
     o_data <= shifted when i_left = '0' else reverse_any_vector(shifted);
-end architecture behavioral;
+end architecture rtl;

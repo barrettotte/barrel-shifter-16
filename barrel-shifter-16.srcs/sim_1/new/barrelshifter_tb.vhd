@@ -22,7 +22,6 @@ begin
             o_data  => o_data_tb
         );
 
-    stimulus:
     process begin
         wait for 5ns;
 
@@ -40,6 +39,6 @@ begin
 
         -- done
         wait;
-    end process stimulus;
+    end process;
 
 end architecture test;

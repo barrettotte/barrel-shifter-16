@@ -21,7 +21,6 @@ begin
             o_d   => o_d_tb
         );
     
-    stimulus:
     process begin
         -- output a
         wait for 10ns;
@@ -40,6 +39,6 @@ begin
 
         -- done
         wait;
-    end process stimulus;
+    end process;
 
 end architecture test;
